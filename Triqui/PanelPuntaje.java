@@ -1,4 +1,4 @@
-package com.usc.UI;
+package com.usc.ui;
 
 import javax.swing.*;
 
