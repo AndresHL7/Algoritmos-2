@@ -13,17 +13,6 @@ public class VentanaPrincipal extends JFrame {
     PanelPuntaje puntajeTriqui;
     
     
-    
-    
-    public static void main (String[] args) {
-        
-        
-        VentanaPrincipal miVentana = new VentanaPrincipal();
-        miVentana.setVisible(true);
-    
-    
-  }
-    
  /*constructor para establecer las caracteristicas de la ventana */
  public VentanaPrincipal()
  { 
@@ -46,14 +35,17 @@ public class VentanaPrincipal extends JFrame {
      puntajeTriqui= new PanelTablero();
      this.add(puntajeTriqui);
      
-     
-     
-     
-     
- 
- 
- 
- }
+     }
+
+    
+    public static void main (String[] args) {
+        
+        
+        VentanaPrincipal miVentana = new VentanaPrincipal();
+        miVentana.setVisible(true);
+    
+    
+  }
 
    
 }
