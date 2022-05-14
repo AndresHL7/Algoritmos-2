@@ -1,0 +1,21 @@
+package com.usc.ui;
+
+import javax.swing.*;
+
+
+public class PanelLogo extends JPanel{
+    
+    JLabel textoLogo;
+    
+    public PanelLogo(){
+        
+        textoLogo=new JLabel("Triqui A.");
+        textoLogo.setText("Triqui A.");
+        add(textoLogo); 
+    
+    
+    
+    }
+    
+    
+}
