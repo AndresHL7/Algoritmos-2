@@ -1,5 +1,6 @@
 package com.usc.ui;
 
+import java.awt.BorderLayout;
 import javax.swing.JFrame;
 
 
@@ -22,18 +23,25 @@ public class VentanaPrincipal extends JFrame {
      this.setResizable(false);
      
      
+     //Establecer diagramación para la Ventana Principal:
+     this.setLayout(new BorderLayout());
      
      //Instanciar y agregar panel del logo:
      logoTriqui= new PanelLogo();
-     this.add(logoTriqui);
+     this.add(logoTriqui, BorderLayout.NORTH);
      
      //Instanciar y agregar panel del tablero:
      tableroTriqui= new PanelTablero();
-     this.add(tableroTriqui);
+     this.add(tableroTriqui, BorderLayout.CENTER);
      
      //Instanciar y agregar panel del logo:
-     puntajeTriqui= new PanelTablero();
-     this.add(puntajeTriqui);
+     puntajeTriqui= new PanelPuntaje();
+     this.add(puntajeTriqui, BorderLayout.EAST);
+     
+     
+    
+     
+     
      
      }
 
