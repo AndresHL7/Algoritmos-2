@@ -382,44 +382,7 @@ public class PanelTablero extends JPanel implements ActionListener{
          
     
         
-        /*
-        if(turno_actual == X){//VALIDA TURNO DE JUGADOR-FILAS
-            if((boton1.getText().equals("X")&&boton2.getText().equals("X")&&boton3.getText().equals("X"))){
-                ganador=true;
-            }else if(boton4.getText().equals("X")&&boton5.getText().equals("X")&&boton6.getText().equals("X")){
-                ganador=true;
-            }else if(boton7.getText().equals("X")&&boton8.getText().equals("X")&&boton9.getText().equals("X")){
-                ganador=true;
-            }else if(boton1.getText().equals("X")&&boton4.getText().equals("X")&&boton7.getText().equals("X")){ //VALIDA COLUMNAS
-                ganador=true;   
-            }else if(boton2.getText().equals("X")&&boton5.getText().equals("X")&&boton8.getText().equals("X")){
-                ganador=true;
-            }else if(boton3.getText().equals("X")&&boton6.getText().equals("X")&&boton9.getText().equals("X")){
-                ganador=true;
-            }else  if(boton1.getText().equals("X")&&boton5.getText().equals("X")&&boton9.getText().equals("X")){ //VALIDA DIAGONALES
-                ganador=true;   
-            }else if(boton7.getText().equals("X")&&boton5.getText().equals("X")&&boton3.getText().equals("X")){
-                ganador=true;
-            }
-            }else  if(turno_actual == O){ //VALIDA TURNO MAQUINA-FILAS
-            if((boton1.getText().equals("O")&&boton2.getText().equals("O")&&boton3.getText().equals("O"))){
-                ganador=true;
-            }else if(boton4.getText().equals("O")&&boton5.getText().equals("O")&&boton6.getText().equals("O")){
-                ganador=true;
-            }else if(boton7.getText().equals("O")&&boton8.getText().equals("O")&&boton9.getText().equals("O")){
-                ganador=true;
-            }else if(boton1.getText().equals("O")&&boton4.getText().equals("O")&&boton7.getText().equals("O")){ //VALIDA COLUMNAS
-                ganador=true;   
-            }else if(boton2.getText().equals("O")&&boton5.getText().equals("O")&&boton8.getText().equals("O")){
-                ganador=true;
-            }else if(boton3.getText().equals("O")&&boton6.getText().equals("O")&&boton9.getText().equals("O")){
-                ganador=true;
-            }else  if(boton1.getText().equals("O")&&boton5.getText().equals("O")&&boton9.getText().equals("O")){ //VALIDA DIAGONALES
-                ganador=true;   
-            }else if(boton7.getText().equals("O")&&boton5.getText().equals("O")&&boton3.getText().equals("O")){
-                ganador=true;
-            }
-        }*/
+       
         
     
     }
